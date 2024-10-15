@@ -1,3 +1,7 @@
+# tomatos
+
+Next.js 프로젝트 캠프 3기 똑똑한개발자 일경험 프로젝트 '토마토들'
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
