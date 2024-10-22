@@ -12,6 +12,7 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ["Pretendard", ...defaultTheme.fontFamily.sans],
+        recipe: ["Recipekorea", ...defaultTheme.fontFamily.sans],
       },
       fontSize: {
         "heading-1": ["84px", { fontWeight: "800" }],

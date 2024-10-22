@@ -1,3 +1,10 @@
+import Filter from "@/components/contest/Filter";
+
 export default function ContestPage() {
-  return <div>공모전 페이지</div>;
+  return (
+    <>
+      <h1 className="text-[32px] font-recipe">공모전</h1>
+      <Filter />
+    </>
+  );
 }
