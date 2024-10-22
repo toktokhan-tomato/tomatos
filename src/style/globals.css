@@ -1,5 +1,6 @@
 * {
   font-family: "Pretendard";
+  color: #222222;
 }
 
 html,
@@ -29,6 +30,7 @@ body {
   width: 1264px;
   min-height: 100vh;
   border: 1px solid black;
+  margin-top: 84px; /* navbar 높이 만큼*/
   /* background-color: #b04b4b;  */
   /* position: relative; */
 }
