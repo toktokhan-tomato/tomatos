@@ -29,4 +29,34 @@
     right: -12px;
     transform: translateY(-50%);
   }
+
+  .tab {
+    font-size: 24px;
+    font-weight: 600;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    span {
+      color: #a7a7a7;
+    }
+  }
+
+  .active-tab {
+    span {
+      padding: 14px 0;
+      color: #e24444;
+    }
+  }
+
+  .active-tab::after {
+    content: "";
+    display: block;
+    background-color: #e24444;
+    height: 4px;
+    border: 50%;
+    width: 100%;
+  }
 }

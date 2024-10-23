@@ -44,7 +44,7 @@ export default function Navbar() {
                 </Link>
                 <span>
                   <Image
-                    src={images.tomatoIconRed}
+                    src={images.tomatoIconRed1}
                     alt="tomato_icon"
                     width={28}
                     height={28}
@@ -56,7 +56,7 @@ export default function Navbar() {
               <Link
                 href="/magazine"
                 className={twMerge(
-                  pathname === "/magazine" ? "active-link" : "",
+                  pathname.startsWith("/magazine") ? "active-link" : "",
                   isUpdate ? "red-dot" : ""
                 )}
               >
@@ -67,7 +67,7 @@ export default function Navbar() {
               <Link
                 href="/contest"
                 className={twMerge(
-                  pathname === "/contest" ? "active-link" : ""
+                  pathname.startsWith("/contest") ? "active-link" : ""
                 )}
               >
                 공모전
@@ -77,7 +77,7 @@ export default function Navbar() {
               <Link
                 href="/activity"
                 className={twMerge(
-                  pathname === "/activity" ? "active-link" : ""
+                  pathname.startsWith("/activity") ? "active-link" : ""
                 )}
               >
                 대외활동
