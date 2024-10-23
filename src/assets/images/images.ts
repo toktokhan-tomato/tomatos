@@ -5,6 +5,7 @@ import tomatoIconYellow from "@/assets/images/tomato_icon_yellow.png";
 import musicIcon from "@/assets/images/music_icon.png";
 import searchIcon from "@/assets/images/search_icon.png";
 import snsIcon from "@/assets/images/sns_icon.png";
+import tomatoPickBanner from "@/assets/images/tomato_pick_banner.png";
 import contestPoster from "@/assets/images/contest_poster.png";
 
 const images = {
@@ -15,6 +16,7 @@ const images = {
   musicIcon,
   searchIcon,
   snsIcon,
+  tomatoPickBanner,
   contestPoster,
 };
 
