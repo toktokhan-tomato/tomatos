@@ -1,3 +1,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  /* 현재 링크일 때 스타일 요소 */
+  .active-link {
+    position: relative;
+    font-weight: 600;
+  }
+
+  .active-link::after {
+    content: "";
+    display: block;
+    background-color: #4a734e;
+    height: 2px;
+    width: 100%;
+  }
+
+  /* 매거진 Link에서 업데이트된 컨텐츠가 있을 때 스타일 요소 */
+  .red-dot::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #e24444;
+    border-radius: 50%;
+    top: 8px;
+    right: -12px;
+    transform: translateY(-50%);
+  }
+}

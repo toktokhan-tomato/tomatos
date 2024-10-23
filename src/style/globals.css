@@ -1,3 +1,36 @@
 * {
   font-family: "Pretendard";
+  color: #222222;
+}
+
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1440px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+} */
+
+.container {
+  width: 1264px;
+  min-height: 100vh;
+  border: 1px solid black;
+  margin-top: 84px; /* navbar 높이 만큼*/
+  /* background-color: #b04b4b;  */
+  /* position: relative; */
 }
