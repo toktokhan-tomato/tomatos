@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { twMerge } from "tailwind-merge";
-import images from "@/assets/images/images";
+import images from "../../../public/images/images";
 
 /**
  * [Navbar]
@@ -35,8 +35,8 @@ export default function Navbar() {
                 <Link href="/">
                   <span>
                     <Image
-                      src={images.tomatoLogo}
-                      alt="tomato_logo"
+                      src={images.tomatoLogo.src}
+                      alt={images.tomatoLogo.alt}
                       width={125}
                       height={28}
                     />
@@ -44,8 +44,8 @@ export default function Navbar() {
                 </Link>
                 <span>
                   <Image
-                    src={images.tomatoIconRed1}
-                    alt="tomato_icon"
+                    src={images.tomatoIconRed1.src}
+                    alt={images.tomatoIconRed1.alt}
                     width={28}
                     height={28}
                   />
@@ -56,11 +56,17 @@ export default function Navbar() {
               <Link
                 href="/magazine"
                 className={twMerge(
-                  pathname.startsWith("/magazine") ? "active-link" : "",
-                  isUpdate ? "red-dot" : ""
+                  "relative",
+                  pathname.startsWith("/magazine") ? "active-link" : ""
                 )}
               >
                 매거진
+                <span
+                  className={twMerge(
+                    "absolute w-[6px] h-[6px] bg-red-600 rounded-full top-2 right-[-12px] transform -translate-y-1/2",
+                    isUpdate ? "block" : "none"
+                  )}
+                ></span>
               </Link>
             </li>
             <li className="py-[7px]">
@@ -103,24 +109,24 @@ export default function Navbar() {
               onChange={(e) => setSearchText(e.target.value)}
             />
             <Image
-              src={images.tomatoIconYellow}
-              alt="tomato_icon"
+              src={images.tomatoIconYellow.src}
+              alt={images.tomatoIconYellow.alt}
               width={28}
               height={28}
               className="absolute left-[10px]"
             />
             {searchText === "" && (
               <Image
-                src={images.musicIcon}
-                alt="music_icon"
+                src={images.musicIcon.src}
+                alt={images.musicIcon.alt}
                 width={13}
                 height={18}
                 className="absolute left-[150px]"
               />
             )}
             <Image
-              src={images.searchIcon}
-              alt="search_icon"
+              src={images.searchIcon.src}
+              alt={images.searchIcon.alt}
               width={24}
               height={24}
               className="absolute left-[230px] cursor-pointer"

@@ -1,4 +1,4 @@
-import images from "@/assets/images/images";
+import images from "../../../public/images/images";
 import { differenceInDays } from "date-fns";
 import Image from "next/image";
 
@@ -26,8 +26,8 @@ export default function DdayTag({ endAt, iconNm }: DdayTagPropsType) {
     <>
       <div className="flex bg-red-100 text-red-500 w-[85px] h-[33px] text-body-2 gap-2 justify-center items-center rounded-full">
         <Image
-          src={images[iconNm]}
-          alt={`${iconNm}_icon`}
+          src={images[iconNm].src}
+          alt={images[iconNm].alt}
           width={20}
           height={20}
         />
