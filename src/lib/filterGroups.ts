@@ -12,4 +12,5 @@ export const magazineFilterGroups = [
   "수상작 갤러리",
   "토마토리포트",
 ];
-  
+
+export const detailFilterGroups = ["상세내용", "토마토 TIP", "수상작 갤러리"];

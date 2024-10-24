@@ -1,4 +1,4 @@
-import images from "@/assets/images/images";
+import images from "../../../public/images/images";
 import Link from "next/link";
 import Image from "next/image";
 
