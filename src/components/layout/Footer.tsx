@@ -59,14 +59,14 @@ export default function Footer() {
             </div>
             <div className="flex flex-col gap-[32px] items-end">
               <Image
-                src={images.tomatoLogo}
-                alt="tomato_logo"
+                src={images.tomatoLogo.src}
+                alt={images.tomatoLogo.alt}
                 width={78}
                 height={18}
               />
               <Image
-                src={images.snsIcon}
-                alt="sns_icon"
+                src={images.snsIcon.src}
+                alt={images.snsIcon.alt}
                 width={32}
                 height={32}
               />

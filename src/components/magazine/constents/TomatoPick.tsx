@@ -6,8 +6,8 @@ export default function TomatoPick() {
     <div>
       <div className="w-full mb-[106px]">
         <Image
-          src={images.tomatoPickBanner}
-          alt="tomatoPickBanner"
+          src={images.tomatoPickBanner.src}
+          alt={images.tomatoPickBanner.alt}
           width={1000}
           height={1000}
           className="w-full h-auto"

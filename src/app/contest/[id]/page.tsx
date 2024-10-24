@@ -128,7 +128,7 @@ export default function ContestDetailPage() {
                 value={selectedTab}
                 caseBy={{
                   상세정보: <DetailInfo />,
-                  "토마토 Tip": <TomatoTip />,
+                  "토마토 TIP": <TomatoTip />,
                   "수상작 갤러리": <AwardGallery />,
                 }}
                 defaultComponent={<DetailInfo />}

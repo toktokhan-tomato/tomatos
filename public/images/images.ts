@@ -47,6 +47,12 @@ const images = {
     width: "auto",
     height: "auto",
   },
+  tomatoPickBanner: {
+    src: "/images/tomatopick_banner.png",
+    alt: "tomatopick_banner",
+    width: "auto",
+    height: "auto",
+  },
 };
 
 export default images;
