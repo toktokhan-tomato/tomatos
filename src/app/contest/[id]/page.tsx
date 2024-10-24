@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import DdayTag from "@/components/common/DdayTag";
-import Filter from "@/components/contest/Filter";
+import Filter from "@/components/common/Filter";
 import images from "../../../../public/images/images";
 import { twMerge } from "tailwind-merge";
 import TabSwitchCase from "@/components/common/TabSwitchCase";
