@@ -1,12 +1,15 @@
 import Filter from "@/components/common/Filter";
+import PageTitle from "@/components/common/PageTitle";
+import ResultCount from "@/components/common/ResultCount";
 import SortingOptions from "@/components/common/SortingOptions";
 
 export default function ContestPage() {
   return (
     <div className="container">
-      <h1 className="text-[32px] font-recipe">공모전</h1>
+      <PageTitle />
       <Filter />
       <SortingOptions />
+      <ResultCount />
     </div>
   );
 }
