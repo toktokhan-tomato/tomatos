@@ -11,7 +11,7 @@ export default function SortingOptions() {
   };
 
   return (
-    <div className="flex items-center space-x-2">
+    <div className="flex items-center space-x-2 ml-[16px] mt-[10px]">
       {options.map((option, index) => (
         <div key={option} className="flex items-center text-[20px]">
           <span
