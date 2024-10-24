@@ -21,7 +21,7 @@ export default function ContestDetailPage() {
   const [selectedTab, setSelectedTab] = useState<string>(detailFilterGroups[0]);
   return (
     <>
-      <div className="mt-[66px]">
+      <div className="container">
         <h1 className="text-[32px] font-recipe">공모전</h1>
         <Filter />
         <div className="mt-[60px] flex items-center flex-col">
