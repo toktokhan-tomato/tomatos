@@ -6,6 +6,7 @@ import musicIcon from "@/assets/images/music_icon.png";
 import searchIcon from "@/assets/images/search_icon.png";
 import snsIcon from "@/assets/images/sns_icon.png";
 import contestPoster from "@/assets/images/contest_poster.png";
+import tomatoStem from "@/assets/images/tomato-stem.svg";
 
 const images = {
   tomatoLogo,
@@ -16,6 +17,7 @@ const images = {
   searchIcon,
   snsIcon,
   contestPoster,
+  tomatoStem,
 };
 
 export default images;
