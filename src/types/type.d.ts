@@ -1,9 +1,8 @@
-type SomeType1 = {
+interface Card {
   id: number;
-  address: string;
-};
-
-interface SomeType2 {
-  id: number;
-  name: string;
+  image: string;
+  title: string;
+  organizer: string;
+  endAt: string;
+  views: number;
 }

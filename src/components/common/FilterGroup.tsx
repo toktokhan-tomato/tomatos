@@ -39,17 +39,15 @@ export default function FilterGroup({ group }: { group: string }) {
   };
 
   return (
-    <>
-      <div className="flex flex-wrap gap-2">
-        {options.map((option, i) => (
-          <FilterOption
-            option={option}
-            key={i}
-            toggled={toggledOptions.has(option)}
-            onToggle={() => toggleOption(option)}
-          />
-        ))}
-      </div>
-    </>
+    <div className="flex flex-wrap gap-4 border-b border-[#D3D3D3] pb-[28px]">
+      {options.map((option, i) => (
+        <FilterOption
+          option={option}
+          key={i}
+          toggled={toggledOptions.has(option)}
+          onToggle={() => toggleOption(option)}
+        />
+      ))}
+    </div>
   );
 }
