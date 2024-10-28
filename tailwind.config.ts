@@ -23,6 +23,7 @@ const config: Config = {
         "heading-6": ["24px", { fontWeight: "600" }],
         "heading-7": ["24px", { fontWeight: "400" }],
         "body-1": ["20px", { fontWeight: "600" }],
+        "body-1-bold": ["20px", { fontWeight: "700" }],
         "body-2": ["18px", { fontWeight: "500" }],
         "body-3": ["16px", { fontWeight: "400" }],
         "body-3-bold": ["16px", { fontWeight: "600" }],
