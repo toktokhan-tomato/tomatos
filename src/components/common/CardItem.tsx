@@ -30,9 +30,11 @@ export default function CardItem({ item }: CardItemProps) {
 
   const goDetailPage = () => {
     console.log(pathname);
-    pathname === "/contest"
-      ? router.push("/contest/1")
-      : router.push("/activity/1");
+    if (pathname === "/contest") {
+      router.push("/contest/1");
+    } else {
+      router.push("/activity/1");
+    }
   };
 
   return (

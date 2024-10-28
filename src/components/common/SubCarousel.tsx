@@ -7,7 +7,6 @@ import "swiper/css/navigation";
 // import required modules
 import { Pagination } from "swiper/modules";
 import Image from "next/image";
-import images from "../../../public/images/images";
 import DdayTag from "./DdayTag";
 
 const datas: {

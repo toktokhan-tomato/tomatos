@@ -41,7 +41,8 @@ export default function ActivityDetailPage() {
               <DdayTag endAt="2024.11.12" iconNm="tomatoIconRed2" />
               <div className="max-w-[480px] pl-[10px]">
                 <h3 className="text-heading-3 py-[10px] ">
-                  [네이버클라우드캠프] 2024 서포터즈 '클로버 (CLOVER) 모집'
+                  [네이버클라우드캠프] 2024 서포터즈 &apos;클로버 (CLOVER)
+                  모집&apos;
                 </h3>
                 <p className=" text-body-2 text-gray-300">
                   등록일: 2024.10.14 | 조회 1,390회

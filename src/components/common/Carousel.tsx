@@ -51,7 +51,7 @@ const banners: {
 export function Carousel() {
   const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()]);
   const router = useRouter();
-  const [selectedBanner, setSelectedBanner] = useState(0);
+  const [selectedBanner] = useState(0);
 
   return (
     <div className="relative">
