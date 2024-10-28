@@ -59,7 +59,7 @@ const dummy: Card[] = [
 export default function ContestPage() {
   return (
     <div className="container">
-      <PageTitle />
+      <PageTitle title="공모전" />
       <Filter />
       <SortingOptions />
       <ResultCount />

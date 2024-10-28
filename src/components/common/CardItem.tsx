@@ -1,4 +1,7 @@
+"use client";
+
 import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
 import DdayTag from "@/components/common/DdayTag";
 
 interface CardItemProps {
@@ -12,6 +15,8 @@ interface CardItemProps {
 }
 
 export default function CardItem({ item }: CardItemProps) {
+  const router = useRouter();
+  const pathname = usePathname();
   const truncateText = (text: string, maxLength: number) => {
     if (text.length > maxLength) {
       return text.slice(0, maxLength) + "...";
@@ -23,8 +28,17 @@ export default function CardItem({ item }: CardItemProps) {
   const truncatedTitle = truncateText(item.title, 42);
   const truncatedOrganizer = truncateText(item.organizer, 25);
 
+  const goDetailPage = () => {
+    console.log(pathname);
+    if (pathname === "/contest") {
+      router.push("/contest/1");
+    } else {
+      router.push("/activity/1");
+    }
+  };
+
   return (
-    <div className="flex flex-col mb-14">
+    <div className="flex flex-col mb-14" onClick={goDetailPage}>
       <Image
         src={item.image}
         alt={item.title}

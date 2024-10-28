@@ -47,9 +47,33 @@ const images = {
     width: "auto",
     height: "auto",
   },
+  contestPoster2: {
+    src: "/images/contest_poster2.png",
+    alt: "contest_poster",
+    width: "auto",
+    height: "auto",
+  },
   tomatoPickBanner: {
     src: "/images/tomatopick_banner.png",
     alt: "tomatopick_banner",
+    width: "auto",
+    height: "auto",
+  },
+  eventBanner: {
+    src: "/images/event_banner.png",
+    alt: "event_banner",
+    width: "auto",
+    height: "auto",
+  },
+  tomatoBadge: {
+    src: "/images/tomato_badge.png",
+    alt: "tomato_badge",
+    width: "auto",
+    height: "auto",
+  },
+  activityPoster: {
+    src: "/images/activity_poster.png",
+    alt: "activity_poster",
     width: "auto",
     height: "auto",
   },

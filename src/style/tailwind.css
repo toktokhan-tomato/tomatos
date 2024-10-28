@@ -34,4 +34,34 @@
     padding: 14px 0;
     color: #e24444;
   }
+
+  .carousel-container {
+    width: 100%;
+  }
+
+  .carousel-box {
+    display: flex;
+  }
+
+  .carousel-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    img {
+      width: 60%;
+      height: 586px;
+    }
+  }
+
+  .slide-length {
+    position: absolute;
+  }
+
+  .swipper-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    img {
+      width: 60%;
+      height: 586px;
+    }
+  }
 }
